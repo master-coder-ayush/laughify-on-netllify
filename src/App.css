@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff2c7;
+}
+
+/* App */
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar{
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 250px;
+    padding: 0 50px;
+}
+
+.navbar .github-logo{
+    width: 50px;
+}
+
+/* Content */
+.content{
+    background-color: #ffe992;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(214,214,214,1);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(214,214,214,1);
+    box-shadow: 0px 0px 16px 0px rgba(214,214,214,1);
+}
+
+.content h1{
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: rgb(36, 16, 71);
+}
+
+/* Joke */
+#joke{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.exclude{
+    margin-bottom: 10px;
+}
+
+.blacklist-flags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.blacklist-flags label{
+    text-transform: capitalize;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+
+label{
+    cursor: pointer;
+}
+
+.btn{
+    border: 0;
+    background-color: rgb(29, 19, 52);
+    color: #ffe992;
+    border-radius: 5px;
+    margin: 20px 20px 0 20px;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.51);
+    box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.51);
+    transition: all ease 0.3s;
+}
+
+.btn:hover{
+    color: rgb(29, 19, 52);
+    background-color: #ffe992;
+
+}
