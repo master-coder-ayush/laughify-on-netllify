@@ -1,8 +1,6 @@
-# React + Vite
+# React Based
+Project Title - Laughify on Netlify
+Project Description - Laughify: Your source for endless humor! Hilarious jokes, memes, and more. Powered by Netlify for seamless browsing!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live at - 
+https://laughify-on-netlify.netlify.app/
